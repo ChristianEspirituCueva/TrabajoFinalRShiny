@@ -25,7 +25,7 @@ source("www/conexionMySQL.R")
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   theme = shinytheme("cyborg"),
-  navbarPage( "Proyecto final sobre los casos d e violencia en el Peru",
+  navbarPage( "Proyecto final sobre Adolescentes con probabilidad de que hallan sido atendidas por profesionales",
               tabPanel("Presentacion",introduccion),
               tabPanel("Recoleccion",
                        recoleccion )
