@@ -8,8 +8,8 @@ recoleccion<-sidebarLayout (
                                                        ".json",".xlsx",".xls",".xml")),
     helpText ( " Max. Tamaño de archivo: 30MB " )),
   mainPanel(
-    tabsetPanel(  tabPanel("Info",tableOutput("tabla1")),
-                  tabPanel("Data",tableOutput("tabla2"))
+    tabsetPanel(  tabPanel("Info",tableOutput("tablaS1")),
+                  tabPanel("Data",tableOutput("tablaS2"))
     )))
 
 

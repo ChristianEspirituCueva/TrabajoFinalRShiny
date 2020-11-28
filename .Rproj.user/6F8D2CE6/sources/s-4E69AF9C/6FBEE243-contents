@@ -76,8 +76,20 @@ server <- function(input, output) {
 #  archivo<-file.choose()
 #  write.csv(qdivision_profesionales_dep, file = "porcentaje_adolescentes.csv")
 
-  
-  
+  output$tablaS2 <- renderTable({
+    tablaS1 <- input$file1
+    if (is.null(tablaS1))
+    {return(NULL)}
+    box<- input$select
+    if(box == "1")    {
+      read_excel(tablaS1$datapath)
+    } else{  if(box == "2") {
+      read_excel(tablaS1$datapath)
+    } else { if(box == "3") {
+      read_excel(tablaS1$datapath)
+    } 
+    } }
+  })
   
   ########4.Transformacion y consultas exploratorias##########
   
@@ -269,20 +281,7 @@ where pf.id='2'")
   
   
   
-  output$tablaS2 <- renderTable({
-    tablaS1 <- input$file1
-    if (is.null(tablaS1))
-    {return(NULL)}
-    box<- input$select
-    if(box == "1")    {
-      read_excel(tablaS1$datapath)
-    } else{  if(box == "2") {
-      read_excel(tablaS1$datapath)
-    } else { if(box == "3") {
-      read_excel(tablaS1$datapath)
-    } 
-    } }
-  })
+
   
   output$consulta1 <- renderText({'
   
