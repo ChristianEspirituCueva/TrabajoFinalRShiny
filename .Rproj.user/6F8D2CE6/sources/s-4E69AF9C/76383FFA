@@ -1,0 +1,32 @@
+{
+    "id": "76383FFA",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1606561179807.0,
+    "source_on_save": false,
+    "relative_order": 9,
+    "properties": {
+        "expression": "qdivision_profesionales_dep",
+        "caption": "qdivision_profesionales_dep",
+        "totalObservations": "182",
+        "displayedObservations": "182",
+        "variables": "4",
+        "cacheKey": "05DCB6B4",
+        "object": "qdivision_profesionales_dep",
+        "environment": "_rs_no_env",
+        "contentUrl": "grid_resource/gridviewer.html?env=_rs_no_env&obj=qdivision_profesionales_dep&cache_key=05DCB6B4&max_cols=50",
+        "preview": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1606561175,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1606561179807,
+    "read_only": false,
+    "read_only_alternatives": []
+}
