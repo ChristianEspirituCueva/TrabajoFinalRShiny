@@ -54,7 +54,7 @@ ui <- fluidPage(
               ,tabPanel('Modelo',
                         navlistPanel(  
                           tabPanel("Regresion Lineal",hr(),checkboxInput("check", "Mostrar Codigo", FALSE),verbatimTextOutput("CodRL"),hr(), plotOutput('plotRL') , sliderInput("xRL" ,"Porcentaje de adolescentes madres primerizas y profesionales en partos", min = 1 , max = 100, value = 1 ), sidebarLayout(sidebarPanel(h5("Predicion del porcentaje de jovenes madres primerizas que posiblemente fueron atendidas por partistas profesionales:")),mainPanel(textOutput("IdPrediccionRL")))  )
-                          ,tabPanel("KNN",h4("Codigo implementacion KNN"),verbatimTextOutput("CodKnn"),sliderInput("xKnn" ,"Numero de casos de denuncias de violencia fisica", min = 1 , max = 100, value = 1 ),sliderInput("yKnn" ,"Numero de casos de denuncia de violencia sexual", min = 1 , max = 100, value = 1 ),sliderInput("kKnn" ,"valor de k", min = 1 , max = 7, value = 1 ) , tableOutput("tablaKNN"))
+                          ,tabPanel("KNN",h4("Codigo implementacion KNN"),verbatimTextOutput("CodKnn"),sliderInput("xKnn" ,"Porcentaje de adolescentes madres primerizas", min = 1 , max = 100, value = 1 ),sliderInput("yKnn" ,"Porcentaje profesionales realizando partos", min = 1 , max = 100, value = 1 ),sliderInput("kKnn" ,"valor de k", min = 1 , max = 7, value = 1 ) , tableOutput("tablaKNN"))
                         ) )
               ,tabPanel("Exportar",actionButton("file20",  "Seleccione carpeta donde guardar CSV Adolescente y Profesional")
                         

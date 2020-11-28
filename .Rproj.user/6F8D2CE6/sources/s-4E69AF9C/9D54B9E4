@@ -3,7 +3,7 @@
     "path": "D:/Documentos/Cienciasdelacomputación/2020-02/Administración de datos/Projects/TrabajoFinalShiny/www/introduccion.R",
     "project_path": "www/introduccion.R",
     "type": "r_source",
-    "hash": "666899955",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1606544189903.0,
@@ -11,15 +11,15 @@
     "relative_order": 6,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "6,1",
+        "cursorPosition": "5,51",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1606544219,
+    "lastKnownWriteTime": 1606563467,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1606544219784,
+    "last_content_update": 1606563467135,
     "read_only": false,
     "read_only_alternatives": []
 }
